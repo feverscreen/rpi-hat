@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS2540RTET
+D 3.15USB Charging Port Power Switch & Controller for Charging Host Ports & Dedicated Charging Ports
+K
+F http://www.ti.com/lit/ds/symlink/tps2540.pdf
+$ENDCMP
+#
+#End Doc Library

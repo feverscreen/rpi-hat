@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MPM3630GQV-P
+#/961891/283511/2.47/18/4/Integrated Circuit
+DEF MPM3630GQV-P IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "MPM3630GQV-P" 1150 200 50 H V L CNN
+F2 "QFN-20(3MMX5MMX1.6MM)" 1150 100 50 H I L CNN
+F3 "https://www.monolithicpower.com/DesktopModules/DocumentManage/API/Document/GetDocument?id=4863" 1150 0 50 H I L CNN
+F4 "18V/3A DC/DC Module Synchronous Step-Down Regulator with Integrated Inductor" 1150 -100 50 H I L CNN "Description"
+F5 "" 1150 -200 50 H I L CNN "Height"
+F6 "Monolithic Power Systems (MPS)" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MPM3630GQV-P" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "MPM3630GQV-P" 1150 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 1150 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "946-MPM3630GQV-P" 1150 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Monolithic-Power-Systems-MPS/MPM3630GQV-P?qs=493kPxzlxfLP9R3Zbv%252BIoA%3D%3D" 1150 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X FB 1 0 0 200 R 50 50 0 0 P
+X VCC 2 0 -100 200 R 50 50 0 0 P
+X AGND 3 0 -200 200 R 50 50 0 0 P
+X SW_1 4 0 -300 200 R 50 50 0 0 P
+X SW_2 5 0 -400 200 R 50 50 0 0 P
+X SW_3 6 0 -500 200 R 50 50 0 0 P
+X OUT_1 7 0 -600 200 R 50 50 0 0 P
+X OUT_2 8 0 -700 200 R 50 50 0 0 P
+X OUT_3 9 0 -800 200 R 50 50 0 0 P
+X NC_1 10 1300 0 200 L 50 50 0 0 P
+X B1T 11 1300 -100 200 L 50 50 0 0 P
+X PGND_1 12 1300 -200 200 L 50 50 0 0 P
+X PGND_2 13 1300 -300 200 L 50 50 0 0 P
+X PGND_3 14 1300 -400 200 L 50 50 0 0 P
+X NC_2 15 1300 -500 200 L 50 50 0 0 P
+X IN 16 1300 -600 200 L 50 50 0 0 P
+X EN/SYNC 17 1300 -700 200 L 50 50 0 0 P
+X PG 18 1300 -800 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -900 200 -900 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

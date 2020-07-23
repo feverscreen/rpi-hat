@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name MPM3630GQV-P)(type Legacy)(uri ${KIPRJMOD}/parts-lib/MPM3630GQV-P.mod)(options "")(descr ""))
+  (lib (name footprints)(type KiCad)(uri ${KIPRJMOD}/parts-lib/footprints.pretty)(options "")(descr ""))
+  (lib (name TPS2540RTET)(type Legacy)(uri ${KIPRJMOD}/parts-lib/TPS2540RTET.mod)(options "")(descr ""))
+  (lib (name S08B-XASK-1_LF__SN_)(type Legacy)(uri ${KIPRJMOD}/parts-lib/S08B-XASK-1_LF__SN_.mod)(options "")(descr ""))
+)

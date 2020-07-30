@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS2546RTER
+D Power Switch ICs - Power Distribution Auto USB Charg Port Cntlr & Pwr Switch
+K
+F http://www.ti.com/lit/ds/symlink/tps2546.pdf
+$ENDCMP
+#
+#End Doc Library

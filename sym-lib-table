@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name MPM3630GQV-P)(type Legacy)(uri ${KIPRJMOD}/parts-lib/MPM3630GQV-P.lib)(options "")(descr ""))
   (lib (name TPS2540RTET)(type Legacy)(uri ${KIPRJMOD}/parts-lib/TPS2540RTET.lib)(options "")(descr ""))
+  (lib (name TPS2546RTER)(type Legacy)(uri ${KIPRJMOD}/parts-lib/TPS2546RTER.lib)(options "")(descr ""))
 )

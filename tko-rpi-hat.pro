@@ -1,4 +1,4 @@
-update=Wed 15 Jul 2020 15:46:09 NZST
+update=Fri 11 Sep 2020 13:47:47 NZST
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=fever-hat.net
+LastNetListRead=tko-rpi-hat.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -42,6 +42,7 @@ TrackWidth1=0.25
 TrackWidth2=0.3
 TrackWidth3=0.4
 TrackWidth4=0.5
+TrackWidth5=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2

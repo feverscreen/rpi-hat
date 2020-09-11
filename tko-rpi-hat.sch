@@ -131,7 +131,6 @@ NoConn ~ 2900 6050
 Text Label 1250 6450 2    50   ~ 0
 THERMAL_POWER
 NoConn ~ 2900 6950
-NoConn ~ 2900 6850
 NoConn ~ 1300 6750
 NoConn ~ 1300 6650
 NoConn ~ 1300 6550
@@ -638,10 +637,6 @@ Wire Wire Line
 	1150 1900 1150 2000
 Wire Wire Line
 	1100 1800 1250 1800
-Text Label 1250 6850 2    50   ~ 0
-LED_INDICATOR
-Wire Wire Line
-	1250 6850 1300 6850
 Wire Wire Line
 	4050 2000 4050 2050
 $Comp
@@ -1038,7 +1033,7 @@ U 1 1 5F453E78
 P 7300 4500
 F 0 "IC1" H 8600 5250 50  0000 L CNN
 F 1 "TPS2546RTER" H 8400 5150 50  0000 L CNN
-F 2 "QFN50P300X300X80-17N-D" H 8750 5100 50  0001 L CNN
+F 2 "Package_DFN_QFN:QFN-16-1EP_3x3mm_P0.5mm_EP1.7x1.7mm_ThermalVias" H 8750 5100 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/tps2546.pdf" H 8750 5000 50  0001 L CNN
 F 4 "Power Switch ICs - Power Distribution Auto USB Charg Port Cntlr & Pwr Switch" H 8750 4900 50  0001 L CNN "Description"
 F 5 "0.8" H 8750 4800 50  0001 L CNN "Height"
@@ -1215,4 +1210,23 @@ F 3 "~" H 6300 4700 50  0001 C CNN
 	1    6300 4700
 	-1   0    0    1   
 $EndComp
+Text Label 2950 6850 0    50   ~ 0
+LED_INDICATOR
+Wire Wire Line
+	2900 6850 2950 6850
+NoConn ~ 1300 6850
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F5E5F5B
+P 10650 5050
+F 0 "#FLG0102" H 10650 5125 50  0001 C CNN
+F 1 "PWR_FLAG" H 10650 5223 50  0000 C CNN
+F 2 "" H 10650 5050 50  0001 C CNN
+F 3 "~" H 10650 5050 50  0001 C CNN
+	1    10650 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10450 5050 10650 5050
+Connection ~ 10450 5050
 $EndSCHEMATC
